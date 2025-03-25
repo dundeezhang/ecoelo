@@ -1,0 +1,236 @@
+/* Receipt Analyzer Styles - Professional Black & White Theme */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #000;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .description {
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  /* Upload Section */
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  .file-input-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .file-input-label:hover {
+    background-color: #333;
+  }
+  
+  .preview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+  }
+  
+  .submit-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    width: 200px;
+  }
+  
+  .submit-button:hover {
+    background-color: #333;
+  }
+  
+  .submit-button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  /* Results Section */
+  .results-section {
+    padding: 2rem 0;
+  }
+  
+  .receipt-data {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .data-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .data-group p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+  }
+  
+  .items-table th,
+  .items-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .items-table th {
+    font-weight: 500;
+    color: #000;
+    background-color: #f8f8f8;
+  }
+  
+  .green-indicator {
+    display: inline-flex;
+    gap: 3px;
+  }
+  
+  .green-indicator span {
+    color: #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .green-indicator span.filled {
+    color: #000;
+  }
+  
+  /* Green Score */
+  .green-score {
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    margin-bottom: 2rem;
+  }
+  
+  .score-display {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  
+  .score-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+    margin-right: 0.5rem;
+  }
+  
+  .score-label {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .score-message {
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .score-breakdown {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .score-breakdown li {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+  }
+  
+  .score-breakdown li span {
+    font-weight: 500;
+  }
+  
+  .reset-button {
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+    align-self: center;
+  }
+  
+  .reset-button:hover {
+    background-color: #000;
+    color: white;
+  }

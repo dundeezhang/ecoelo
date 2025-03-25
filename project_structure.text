@@ -1,0 +1,81 @@
+- .env
+- .gitignore
+- .vite
+  - deps
+    - _metadata.json
+    - package.json
+- README.md
+- backend
+  - .env
+  - .gitignore
+  - eng.traineddata
+  - package-lock.json
+  - package.json
+  - prisma
+    - migrations
+      - 20250322054321_init
+        - migration.sql
+      - 20250322065000_init
+        - migration.sql
+      - 20250322082957_add_elo_and_history
+        - migration.sql
+      - 20250322143000_add_elo
+        - migration.sql
+      - migration_lock.toml
+    - prismaClient.js
+    - schema.prisma
+  - server.js
+  - src
+    - app.js
+    - controllers
+      - authController.js
+      - userController.js
+    - middleware
+      - authMiddleware.js
+    - routes
+      - authRoutes.js
+      - protectedRoutes.js
+    - server.js
+    - uploads
+    - utils
+      - sendEmail.js
+  - test-db.js
+- frontend
+  - .env
+  - LICENSE
+  - README.md
+  - eslint.config.js
+  - implement.txt
+  - index.html
+  - package-lock.json
+  - package.json
+  - public
+    - vite.svg
+  - src
+    - api
+      - ai.js
+    - css
+      - App.css
+      - Dashboard.css
+      - Login.css
+      - Nav.css
+      - Recipt.css
+      - index.css
+    - main.jsx
+    - pages
+      - App.jsx
+      - Dashboard.jsx
+      - Three.jsx
+      - components
+        - Background.jsx
+        - Footer.jsx
+        - History.jsx
+        - Login.jsx
+        - Nav.jsx
+        - ReciptUpload.jsx
+        - Verify.jsx
+        - assets
+          - react.svg
+  - vite.config.js
+- package-lock.json
+- package.json

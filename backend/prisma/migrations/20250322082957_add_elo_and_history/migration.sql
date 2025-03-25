@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "elo" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "history" JSONB NOT NULL DEFAULT '[]';
