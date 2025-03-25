@@ -36,7 +36,7 @@ This will install dependencies for the main project, frontend, and backend.
 
 ### Configuration
 
-The backend uses a .env file with the Claude API key. This is already set up.
+The backend uses a .env file with the Claude API key. You will have to set this up yourself to host it.
 
 ### Running the Application
 
